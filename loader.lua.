@@ -3,7 +3,7 @@ if TextBox.Text == key then
     print("Key accepted, loading mainscript.lua...")
     wait(1)
     ScreenGui:Destroy()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alskjsjsjs/alimloader/main/mainscript.lua"))()
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Alskjsjsjs/alimloader./refs/heads/main/mainscript.lua."))()"))()
 else
     Status.Text = "Key Salah"
 end
